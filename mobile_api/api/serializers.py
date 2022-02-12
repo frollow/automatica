@@ -16,8 +16,6 @@ class StoreSerializer(serializers.ModelSerializer):
 
 
 class VisitSerializer(serializers.ModelSerializer):
-
     class Meta:
         fields = "__all__"
         model = Visit
-
